@@ -3,7 +3,6 @@ import axios from 'axios';
 // @todo, merge this with Sagas, I had different plans for this originally
 class PlayModelClient {
     getLinesByIndex = (startIndex, stopIndex) => {
-        console.log('//////////', startIndex, stopIndex);
         return axios.get(`http://localhost:3001/getResultsForRange?startIndex=${startIndex}&stopIndex=${stopIndex}`);
     };
 

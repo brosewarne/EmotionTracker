@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "concurrently": "^3.5.1",
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "material-ui": "^1.0.0-beta.43",
@@ -62,6 +63,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "startServer": "node src/server/server.js",
+    "startAll": "concurrently \"npm run startServer\" \"npm run start\"",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "lint": "eslint ./src"

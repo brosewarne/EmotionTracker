@@ -33,7 +33,7 @@ class CharacterHeatMap extends Component {
         return (
             <Paper elevation={12}>
                 <Typography align="center" variant="subheading">
-                    Mean Character Emotions
+                    Total Character Emotions
                 </Typography>
                 <HeatMap
                     data={this.props.heatMapData}

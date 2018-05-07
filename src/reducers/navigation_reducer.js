@@ -1,5 +1,4 @@
 
-
 const initialState = {
     startIndex: 10,
     stopIndex: 15

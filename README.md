@@ -8,4 +8,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Checkout the repository
 * Change into the checked out project
 * Run `npm install` - or `yarn install` if yarn is available 
-* Run `npm start` - this will start the project on port 3000 
+* Run `npm startAll` - this will start the front end on port 3000 and the backend on port 3001
+
+## Screenshots
+
+### Main Page
+![EmotionTracker](https://raw.githubusercontent.com/brosewarne/EmotionTracker/master/screenshots/main_page.png)
