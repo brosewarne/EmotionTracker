@@ -1,0 +1,12 @@
+.appHeader {
+    padding-right: 10px;
+    color: white;
+    text-align: center;
+}
+
+.appTitle {
+    font-family: "Calibri";
+    font-weight: normal;
+    font-size: 3rem;
+    text-align: center;
+}

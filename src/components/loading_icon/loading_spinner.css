@@ -1,0 +1,10 @@
+
+.loadingSpinner {
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes loadingSpinner {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

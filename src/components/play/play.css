@@ -1,0 +1,7 @@
+.playGrid {
+    flex-flow: column nowrap;
+    display: flex;
+    margin: 1rem;
+    user-select: none;
+    padding: 0 2rem 2rem;
+}
